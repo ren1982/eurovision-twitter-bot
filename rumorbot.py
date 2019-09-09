@@ -65,7 +65,6 @@ def safetycheck(value, fraughtlist, biglist):
 # Create Python-readable lists of items in JSON files
 celebs = json.load(open('celebs.json', mode='r'))['celebs'] # assorted non-Eurovision celebrities
 escartists = json.load(open('esc.json', mode='r'))['artists'] # assorted Eurovision artists
-exclamations = json.load(open('exclamations.json', mode='r'))['exclamations'] # exclamations
 escpersonalities = json.load(open('people.json', mode='r'))['people'] # assorted Eurovision-related/-adjacent personalities
 artists = celebs + escartists + escpersonalities
 active = json.load(open('ebu.json', mode='r'))['active'] # EBU member nations that competed in Eurovision in 2019
@@ -73,6 +72,7 @@ inactive = json.load(open('ebu.json', mode='r'))['inactive'] # EBU member nation
 debut = json.load(open('ebu.json', mode='r'))['debut'] # EBU member nations that have yet to compete in Eurovision
 notebu = json.load(open('ebu.json', mode='r'))['non-ebu'] # a selection of non-EBU nations
 nfs = json.load(open('nfs.json', mode='r'))['nationalfinals'] # Eurovision national finals
+exclamations = json.load(open('exclamations.json', mode='r'))['exclamations'] # exclamations
 g1 = json.load(open('categorized-subset.json', mode='r'))['Avant-garde']
 g2 = json.load(open('categorized-subset.json', mode='r'))['Caribbean and Caribbean-influenced']
 g3 = json.load(open('categorized-subset.json', mode='r'))['Blues']
