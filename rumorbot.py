@@ -141,13 +141,12 @@ def randomRumor():
     genre = randomName(genres).lower()
     
     brk = '\n'
-    tweet_templates = [f"{exc} {artist1} is rumored to represent {country} in Rotterdam 2020!",
+    tweet_templates = [f"{exc} {artist1} is rumored to represent {country} in Rotterdam 2020! #botgeneratedrumor",
         f"Rumor has it: {artist1} has been selected for {nf}! {exc}",
-        f"Could we really be seeing {artist1} as the interval act in Rotterdam next year?",
+        f"Could we really be seeing {artist1} as the interval act in Rotterdam next year? #yesthisisfakenews",
         f"{exc} Billionaire seeks to book {celeb} as the Rotterdam 2020 interval act!",
         f"You didn't hear it from me but {artist1} may have a cameo in the Eurovision movie!",
         f"Don't tell anyone: {artist1} has reportedly been internally selected for {country}! {exc}",
-        f"{exc} {celeb} claims they will NEVER compete at Eurovision! Ever!",
         f"We looked into our crystal ball: {country} will win Eurovision 2020! #botscanseeintothefuture",
         f"It's a bold prediction, but we think {artist1} will win Eurovision in Rotterdam. #botgivesdouzepoints",
         f"{exc} We have a vision of {artist1} performing onstage in Rotterdam representing {country}!",
@@ -161,9 +160,7 @@ def randomRumor():
         f"If {artist1} competed for {country} in Tel Aviv, do you think they would have won?",
         f"{exc} {country} turns down {artist1}! Is their Eurovision 2020 dream now dead?",
         f"{celeb} SLAMS Netflix for creating a Eurovision movie! {exc} #canabotmakethemovieinstead",
-        f"{celeb} says {country} could never win Eurovision as it's all politics. #madeupnews",
         f"{exc} {nf} line-up leaked! {artist1} and {artist2} are competing, while {artist3} and {artist4} are collaborating!",
-        f"{esc} reportedly asked {artist2} to collaborate on a song for {nf}, but they REFUSED! {exc}",
         f"Eurovision 2020 won't be complete if {artist1} or {artist2} don't perform!",
         f"It's a common framework of {artist1}, {artist2}, {artist3}, and {artist4} for {country} in Rotterdam!",
         f"Your hosts for Eurovision 2020 in Rotterdam: {artist1}, {esc}, and {person}!",
